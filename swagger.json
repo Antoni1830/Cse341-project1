@@ -6,7 +6,7 @@
     "version": "1.0.0"
     
   },
-  "host": "https://cse341-project1-pk1s.onrender.com",
+  "host": "localhost:3001",
   "basePath": "/",
   "schemes": [
     "http",

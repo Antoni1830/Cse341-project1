@@ -6,7 +6,7 @@
     "version": "1.0.0"
     
   },
-  "host": "localhost:3001",
+  "host": "https://cse341-project1-pk1s.onrender.com",
   "basePath": "/",
   "schemes": [
     "http",
@@ -26,16 +26,7 @@
         }
       }
     },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
+    
     "/users/": {
       "get": {
         "tags": [

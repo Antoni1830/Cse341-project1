@@ -3,16 +3,39 @@
   "info": {
     "title": "Users Api",
     "decription": "Users Api",
-    "version": "1.0.0",
-    "description": ""
+    "version": "1.0.0"
+    
   },
-  "host": "https://cse341-project1-pk1s.onrender.com",
+  "host": "localhost:3001",
   "basePath": "/",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
-    
+    "/": {
+      "get": {
+        "tags": [
+          "hello world"
+        ],
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
+      }
+    },
     "/users/": {
       "get": {
         "tags": [

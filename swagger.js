@@ -5,8 +5,8 @@ const doc={
         title:'Users Api',
         decription:'Users Api'
     },
-    host:'localhost:3001',
-    schemes:['https','http']
+    host:"localhost:3001",
+    schemes:["https","http"]
 };
 const outputFile='./swagger.json';
 const endpointsFile=['./routes/index.js'];
